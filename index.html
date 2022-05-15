@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shift or not</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <table>
+      <tr>
+       <td style="width:479px; " class="home">
+          <h1>Shift or not</h1>
+        <p class="desc">This website help to undesrtand wether you should <br> shift for job to another state or metro citys, my <br> looking at the increase many factors like cost of living,<br> hdi and happines index .</p>
+<a href="#"><button style="background: transparent;border:0px;" type="button" name="button"><img src="assets/Group 1.svg" alt="learn more"></button></a>
+      </td>
+        <td style="  margin:100px;" class="main">
+          <div class="calc">
+            <select name="state" class="state" style=" margin-right:24.5px ;margin-top:14px">
+            <option value="1"> Current area</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            </select>
+            <select name="state" class="state" style="margin-leftt:24.5px;margin-top:14px" >
+            <option value="1">  going area</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            </select>
+  <br><br>
+            <input class="type1 "type="number" placeholder="Orginal salary" >
+            <input class="type1" type="number" placeholder="New salary">
+            <input class="type1" type="number"placeholder="Annual expenditure" >
+            <br><br>
+            <input class="type2"type="number" style="margin:15px;" placeholder="cost of moving">
+            <input class="type2"type="number" style="margin-left:57px;"placeholder="Current house size (BHK)">
+            <button type="button" name="button" style="position:relative;left:250px;top:25px;  background: transparent;border:0px;" onclick="uhh()"><img src="assets/button2.svg" alt=""></button>
+          </div>
+           <div class="note">
+             <table style="position:relative;left:20px;">
+               <tr>
+                 <td  style="padding-right:10px;padding-left:10px;"> <h2 style="width: 207px;height: 63px;">Why are we asking house size ?</h2></td>
+                <td > <p style="padding-right:20px;width: 331px; text-align: justify;">If you do not know the cost of moving we can estimate using your house size.Helps use to give a genral idea of amount things to be shifted.</p></td
+                  </tr>
+                  </div>
+
+           </td>
+             </table>
+             <div  id="overlay" class="">
+             <img style=" width: 100px;z-index:1;position:absolute;;top:150px;left:255px;" src="assets/noun-error-861558.png" alt="">
+             <p style="color:black ;z-index:1;position:absolute;;top:250px;left:235px;">please enter values</p>
+                    </div>
+             <div class="result blur">
+         <h2 style="position:relative;top:20px;left:55px;">HDI index </h2>
+         <h4 class="hdi"style="position:relative;top:-30px;left:45px;">10%</h4>
+         <p style="position:relative;top:-90px;left:12px ;width: 200px;
+height: 15px;  text-align: center;">Increase in the Human development index</p>
+<h2 style="position:relative;top:-235px;left:265px;">Salary</h2>
+<h4 class="sal"style="position:relative;top:-285px;left:240px;" >5%</h4>
+<p style="position:relative;top:-343px;left:200px ;width: 200px;
+height: 15px;  text-align: center;">Increase in the saving left including cost of living</p>
+<h2 style="position:relative;top:-487px;px;left:400px;">Happines index</h2>
+<h4 class="hap" style="position:relative;top:-537px;left:433px;">15%</h4>
+<p class="ofk"style="position:relative;top:-595px;left:390px ;width: 200px;
+height: 15px;  text-align: center;">Increase in the Human development index</p>
+             </div>
+             <img style="z-index:-1; position:relative;top:-100px;right:450px;"src="assets/Rectangle 6.svg" alt="">
+             <img style="z-index:-1; position:relative;top:-600px;right:-500px;" src="assets/Polygon 1.svg" alt="">
+             <img style="z-index:-1; position:relative;top:-1200px;right:600px;"src="assets/Ellipse 2.svg" alt="">
+
+ <script src="index.js" charset="utf-8"></script>
+  </body>
+
+</html>
